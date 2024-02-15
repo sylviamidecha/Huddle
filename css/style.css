@@ -3,11 +3,43 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container{
+
+.container {
   margin: 0 auto;
   width: 90%;
 }
+
 .background___image {
   background: url("../images/bg-hero-desktop.svg");
   height: 80vh;
+}
+
+.nav__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+.nav__bar__btn {
+  padding: 1em 3em;
+  border: none;
+  background-color: hsl(193, 100%, 96%);
+  box-shadow: 0 0 2px gray;
+  border-radius: 2em;
+}
+
+.btn {
+  padding: 1em 3em;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 2px gray;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: c;
+  gap: 2em;
 }
