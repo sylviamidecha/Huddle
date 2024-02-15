@@ -3,7 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-body {
-  background-color: blue;
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+.background___image {
+  background: url("../images/bg-hero-desktop.svg");
+  height: 80vh;
 }
