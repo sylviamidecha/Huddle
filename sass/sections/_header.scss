@@ -25,10 +25,16 @@
 .hero {
   @include flex(space-between);
   gap: 2em;
+  
 }
 
 
 .btn__hero{
 padding: 1em 2em;
 
+}
+
+
+.footer__part{
+  @include flex(space-between,center)
 }

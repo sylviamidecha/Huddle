@@ -37,9 +37,3 @@
   cursor: pointer;
 }
 
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: c;
-  gap: 2em;
-}
