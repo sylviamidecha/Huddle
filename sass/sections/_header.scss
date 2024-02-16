@@ -51,8 +51,9 @@
   .box-1 {
     width: 25%;
   }
-  .box-1 img {
-    color: white;
+  .box-1__img {
+    filter: brightness(0);
+    filter: invert(1);
   }
   .box-2 {
     width: 10%;

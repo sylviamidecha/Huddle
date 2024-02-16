@@ -65,8 +65,9 @@
 .footer__part .box-1 {
   width: 25%;
 }
-.footer__part .box-1 img {
-  color: white;
+.footer__part .box-1__img {
+  filter: brightness(0);
+  filter: invert(1);
 }
 .footer__part .box-2 {
   width: 10%;
