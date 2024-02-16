@@ -37,4 +37,105 @@
 }
 .hero__center {
   width: 20%;
+.background___image {
+  background: url("../images/bg-hero-desktop.svg");
+  height: 80vh;
+}
+
+.nav__bar {
+  @include flex(space-between, center);
+  margin-top: 2em;
+
+  .btn {
+    padding: 1em 3em;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 2px gray;
+    border-radius: 2em;
+    cursor: pointer;
+  }
+}
+
+.hero {
+  @include flex(space-between, center);
+  gap: 9em;
+
+  .hero p{
+    padding: 4em;
+  
+  }
+
+  &__btn {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 2em;
+    background-color: $Pink;
+    color: white;
+  }
+}
+
+.footer__part {
+  @include flex(space-between, center);
+  background-color: $Very-Dark-Cyan;
+  height: 60vh;
+  color: white;
+  cursor: pointer;
+  // width: 100%;
+
+  .footer__part--box {
+    @include flex(space-around, center, center);
+    margin: 0 2em;
+    gap: 1em;
+  }
+  .footer__part--box p {
+    padding: 1em 0;
+  }
+  .box-1 {
+    width: 25%;
+  }
+  .box-1__img {
+    filter: brightness(0);
+    filter: invert(1);
+  }
+  .box-2 {
+    width: 10%;
+  }
+  .box-2:hover h4 {
+    text-decoration: underline;
+  }
+
+  .box-3 {
+    width: 10%;
+  }
+  .box-3:hover h4 {
+    text-decoration: underline;
+  }
+
+  .box-4 {
+    width: 25%;
+  }
+  .images img:hover {
+    background-color: $Pink;
+  }
+
+}
+
+@media screen and (max-width:375px){
+  .footer__part--box{
+    flex-wrap: wrap;
+  }
+    .box-2{
+      display: none;
+    }
+    .box-3{
+      display: none;
+    }
+    .box-1{
+      flex: 1;
+    }
+    .box-4{
+      flex: 1;
+    }
+  
+  
 }
