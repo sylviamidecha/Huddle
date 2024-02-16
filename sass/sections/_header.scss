@@ -5,11 +5,9 @@
   height: 80vh;
 }
 
-
 .nav__bar {
   @include flex(space-between, center);
   margin-top: 2em;
-}
 
 
 .btn {
@@ -20,21 +18,23 @@
   border-radius: 2em;
   cursor: pointer;
 }
+}
 
 
 .hero {
-  @include flex(space-between);
+  @include flex(space-between, center);
   gap: 2em;
+
+  &__btn {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 2em;
+    background-color: $Pink;
+    color: white;
+  }
   
 }
 
-
-.btn__hero{
-padding: 1em 2em;
-
-}
-
-
-.footer__part{
-  @include flex(space-between,center)
+.footer__part {
+  @include flex(space-between, center);
 }

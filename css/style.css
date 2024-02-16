@@ -20,15 +20,7 @@
   align-items: center;
   margin-top: 2em;
 }
-.nav__bar__btn {
-  padding: 1em 3em;
-  border: none;
-  background-color: hsl(193, 100%, 96%);
-  box-shadow: 0 0 2px gray;
-  border-radius: 2em;
-}
-
-.btn {
+.nav__bar .btn {
   padding: 1em 3em;
   border: none;
   background-color: white;
@@ -37,3 +29,22 @@
   cursor: pointer;
 }
 
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+.hero__btn {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 2em;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.footer__part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
