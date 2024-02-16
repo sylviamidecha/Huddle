@@ -81,9 +81,12 @@
     background-color: $Pink;
   }
 
+}
+
 @media screen and (max-width:375px){
   .footer__part--box{
     flex-wrap: wrap;
+  }
     .box-2{
       display: none;
     }
@@ -96,8 +99,6 @@
     .box-4{
       flex: 1;
     }
-  }
+  
   
 }
-}
-
