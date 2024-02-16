@@ -21,8 +21,15 @@
 
 .hero {
   @include flex(space-between, center);
-  gap: 2em;
+  gap: 9em;
 
+  .hero p{
+    padding: 4em;
+  
+  }
+// h1{
+//   font-family: $font-family;
+// }
   &__btn {
     padding: 1em 2em;
     border: none;
@@ -41,7 +48,7 @@
   // width: 100%;
 
   .footer__part--box {
-    @include flex(space-around, center);
+    @include flex(space-around, center, center);
     margin: 0 2em;
     gap: 1em;
   }
@@ -75,4 +82,8 @@
   .images img:hover {
     background-color: $Pink;
   }
+
+  // .box-4___copy {
+  // }
 }
+
