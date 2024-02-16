@@ -47,4 +47,42 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: hsl(192, 100%, 9%);
+  height: 60vh;
+  color: white;
+  cursor: pointer;
+}
+.footer__part .footer__part--box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 2em;
+  gap: 1em;
+}
+.footer__part .footer__part--box p {
+  padding: 1em 0;
+}
+.footer__part .box-1 {
+  width: 25%;
+}
+.footer__part .box-1 img {
+  color: white;
+}
+.footer__part .box-2 {
+  width: 10%;
+}
+.footer__part .box-2:hover h4 {
+  text-decoration: underline;
+}
+.footer__part .box-3 {
+  width: 10%;
+}
+.footer__part .box-3:hover h4 {
+  text-decoration: underline;
+}
+.footer__part .box-4 {
+  width: 25%;
+}
+.footer__part .images img:hover {
+  background-color: hsl(322, 100%, 66%);
 }
