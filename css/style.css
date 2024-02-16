@@ -92,3 +92,20 @@
 .footer__part .images img:hover {
   background-color: hsl(322, 100%, 66%);
 }
+@media screen and (max-width: 375px) {
+  .footer__part .footer__part--box {
+    flex-wrap: wrap;
+  }
+  .footer__part .footer__part--box .box-2 {
+    display: none;
+  }
+  .footer__part .footer__part--box .box-3 {
+    display: none;
+  }
+  .footer__part .footer__part--box .box-1 {
+    flex: 1;
+  }
+  .footer__part .footer__part--box .box-4 {
+    flex: 1;
+  }
+}

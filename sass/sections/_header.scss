@@ -27,9 +27,7 @@
     padding: 4em;
   
   }
-// h1{
-//   font-family: $font-family;
-// }
+
   &__btn {
     padding: 1em 2em;
     border: none;
@@ -83,7 +81,23 @@
     background-color: $Pink;
   }
 
-  // .box-4___copy {
-  // }
+@media screen and (max-width:375px){
+  .footer__part--box{
+    flex-wrap: wrap;
+    .box-2{
+      display: none;
+    }
+    .box-3{
+      display: none;
+    }
+    .box-1{
+      flex: 1;
+    }
+    .box-4{
+      flex: 1;
+    }
+  }
+  
+}
 }
 
