@@ -1,5 +1,42 @@
 @use "../utilities/mixins" as *;
 @use "../utilities/variables" as *;
+@media screen and (max-width: 375px) {
+}
+
+.hero__container {
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero__container__top {
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  border: 4px solid whitesmoke;
+  padding: 2px 2px;
+}
+.hero__container__center {
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  border: 4px solid whitesmoke;
+  padding: 2px 2px;
+  margin: 3em 0;
+}
+
+.hero__container__bottom {
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  padding: 2px 2px;
+  border: 2px solid whitesmoke;
+}
+.hero__content {
+  width: 20%;
+}
+.hero__center {
+  width: 20%;
 .background___image {
   background: url("../images/bg-hero-desktop.svg");
   height: 80vh;
